@@ -1,6 +1,5 @@
 # 셀리니움_웹드라이버_네이버로그인.py
 # pip install clipboard 
-
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
