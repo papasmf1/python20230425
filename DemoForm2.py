@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 
 #디자인한 파일을 로딩
-form_class = uic.loadUiType("c:\\work2\\DemoForm2.ui")[0]
+form_class = uic.loadUiType("DemoForm2.ui")[0]
 #윈도우(폼)클래스 정의(QMainWindow상속)
 class DemoForm(QMainWindow, form_class):
     def __init__(self):
